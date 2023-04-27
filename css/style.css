@@ -176,18 +176,18 @@ iframe {
 /*------------------------------------------------------------------*/
 
 
-.formulario input {
+#formulario input {
     padding: 5px;
     margin: 5px;
     border-radius: 15px;
     width: 80%;
 }
 
-.formulario .radio {
+#formulario .radio {
     width: fit-content;
 } 
 
-.formulario .botao {
+#formulario .botao {
     width: 20%;
 
 }
