@@ -1,8 +1,228 @@
 @charset "UTF-8";
+@import  url( ' https://fonts.cdnfonts.com/css/overlock-sc ' );
+
+
+* {
+    margin: 0; /* distancia da borda de fora*/
+    padding: 0; /* distancia da borda de dentro */
+    font-family: 'Overlock SC' , sem serifa ; 
+}
+
+* a{
+    text-decoration: none;
+    color: #110b64;
+    font-weight: 900;
+}
 
 body {
-    background-color: black;
+    background-color: #121212;
 }
+
 h1 {
-    background-color: brown;
+    color: #8c7851;
 }
+
+h2, h3 {
+    color: #732c02;
+}
+
+/*------------------------------------------------------------------*/
+
+#menu {
+    height: 85px; /* altura */
+    position: relative; 
+    background-color: #331408;
+    padding: 5px;
+    
+} 
+
+#menu h1 {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    
+}
+
+#menu nav{
+    
+    position: absolute;
+    width: 60%; /* largura da tag */
+    margin-left: 38%;
+    top: 30%;
+    list-style: none; /* tirar qualquer style da tag */
+
+}
+
+#menu  li {
+    margin-left: 5%; /* distancia a esquerda */
+    display: inline; /* colocar as colunas em 
+    linha reta */
+}
+
+
+#menu form {
+    position: absolute;
+    width: 70%;
+    margin-top: 1%;
+    border-radius: 10px;
+    margin-left: 5%; /* distancia a esquerda */
+    display: inline; /* colocar as colunas em s
+    linha reta */
+    background-color:#8c7851;
+    padding: 5PX;
+}
+
+#menu input {
+    border-radius: 5px;
+    padding: 2px;
+    width: 90%;
+    
+}
+
+#menu a {
+    color: #d2c2bd;
+    text-decoration: none; /* tira o sublinhado do link */
+}
+
+#menu a:hover { /* acontece algo quando passa o mouse */
+    font-weight:900; /* muda a tipografia do texto */ 
+    color: #8c7851;
+    text-decoration: underline #d2c2bd; /* sublinhar texto*/
+}
+
+/*------------------------------------------------------------------*/
+
+#container {
+    background-color: #d2c2bd;
+    width: 70%; /* largura da tag */
+    padding: 25px; /* barda da caixa */
+    margin: auto;
+    
+}
+
+#container p {
+    text-align: justify; /* texto alinhado na esquerda e na direita */
+    text-indent: 5%; /* indentação de paragrafo */
+}
+
+#container figure {
+    background-image: url(/img/banner-sushi-m-index.png);
+    background-size: cover ; /* pega a tela inteira */
+    background-position: bottom ; /* alinha a parte de baixo da própria imagem*/
+    width: 100%; /* largura */
+    min-height: 38vh; /*altura*/
+}
+
+/*------------------------------------------------------------------*/
+main li {
+    padding: 10px;
+}
+
+main #back {
+    background-image: url(/img/sushi-banner-background.jpg);
+    background-size: cover ; /* pega a tela inteira */
+    background-position: center; /* alinha ao centro da própria imagem*/
+    width: 100%; /* largura */
+    min-height: 55vh; /*altura*/
+    position: relative;
+}
+
+main #back #ingred {
+    padding: 2% 3% 2% 7%;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.275);
+    backdrop-filter: blur(15px); /* efeito desfocado*/
+    border-radius: 5%; /* opacidade do desfoque */
+    -webkit-backdrop-filter: blur(15px); /* isso faz o efeito blur funcionar nos navegadores safari tnm */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* centralizar no meio, independente do tamanho do background*/
+}
+/*------------------------------------------------------------------*/
+
+main #back2 {
+    background-image: url(/img/receitas-background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ; /* pega a tela/ box inteira */
+    background-position: right 35% bottom 50%; /* alinha de acordo com a própria imagem*/
+    width: 100%; /* largura */
+    min-height: 90vh; /*altura*/
+    position: relative;
+}
+
+main #back2 #preparo {
+
+    padding: 2% 3% 2% 7%;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.275);
+    backdrop-filter: blur(25px); /* efeito desfocado*/
+    border-radius: 5%; /* opacidade do desfoque */
+    -webkit-backdrop-filter: blur(25px); /* isso faz o efeito blur funcionar nos navegadores safari tnm */
+    position: absolute;
+    top: 16%;
+    left: 65%;
+    transform: translate(-67%, -15%); /* centralizar no meio, independente do tamanho do background*/
+}
+
+/*------------------------------------------------------------------*/
+
+iframe {
+    width: 100%;
+    border-radius: 5%;
+
+}
+
+/*------------------------------------------------------------------*/
+
+
+.formulario input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.formulario .radio {
+    width: fit-content;
+} 
+
+.formulario .botao {
+    width: 20%;
+
+}
+
+textarea {
+    border-radius: 15px;
+    width: 95%;
+    padding: 10px;
+}
+
+fieldset {
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+
+}
+
+/*------------------------------------------------------------------*/
+
+footer {
+    background-color: #331408;
+    color: #d2c2bd;
+    width: 70%; /* largura da tag */
+    padding: 10px 25px; /* barda da caixa */
+    margin: auto;
+    text-align: center;
+    height: max-content;
+}
+
+footer a {
+    color: #d2c2bd;
+}
+
+footer a:hover {
+    color: #8c7851;
+    text-decoration: underline #d2c2bd;
+}
+
