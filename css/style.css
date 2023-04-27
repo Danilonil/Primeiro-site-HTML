@@ -147,7 +147,7 @@ main #back2 {
     background-size:cover ; /* pega a tela/ box inteira */
     background-position: right 35% bottom 50%; /* alinha de acordo com a própria imagem*/
     width: 100%; /* largura */
-    min-height: 90vh; /*altura*/
+    min-height: 100vh; /*altura*/
     position: relative;
 }
 
