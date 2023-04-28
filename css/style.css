@@ -46,7 +46,7 @@ h2, h3 {
 #menu nav{
     
     position: absolute;
-    width: 60%; /* largura da tag */
+    width: 65%; /* largura da tag */
     margin-left: 32%;
     top: 30%;
     list-style: none; /* tirar qualquer style da tag */
