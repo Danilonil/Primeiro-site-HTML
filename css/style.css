@@ -176,6 +176,15 @@ iframe {
 /*------------------------------------------------------------------*/
 
 
+fieldset {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
 #formulario input {
     padding: 5px;
     margin: 5px;
@@ -194,16 +203,10 @@ iframe {
 
 textarea {
     border-radius: 15px;
-    width: 95%;
+    width: 75%;
     padding: 10px;
 }
 
-fieldset {
-    width: 90%;
-    padding: 20px;
-    text-align: center;
-
-}
 
 /*------------------------------------------------------------------*/
 
