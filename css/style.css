@@ -39,7 +39,7 @@ h2, h3 {
 #menu h1 {
     position: absolute;
     top: 25%;
-    left: 15%;
+    left: 10%;
     
 }
 
@@ -47,7 +47,7 @@ h2, h3 {
     
     position: absolute;
     width: 60%; /* largura da tag */
-    margin-left: 38%;
+    margin-left: 32%;
     top: 30%;
     list-style: none; /* tirar qualquer style da tag */
 
@@ -62,7 +62,7 @@ h2, h3 {
 
 #menu form {
     position: absolute;
-    width: 70%;
+    width: 84%;
     margin-top: 1%;
     border-radius: 10px;
     margin-left: 5%; /* distancia a esquerda */
